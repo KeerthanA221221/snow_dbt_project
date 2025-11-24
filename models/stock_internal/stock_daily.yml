@@ -1,0 +1,41 @@
+models:
+- name: stock_daily
+  description: This model provides a daily summary of stock trading data, including
+    key metrics such as opening and closing prices, trading volume, and trade value.
+    It is used to analyze daily stock performance and trends.
+  columns:
+  - name: stock_name
+    description: The name of the stock being traded.
+    data_tests:
+      - not_null
+  - name: series
+    description: The series of the stock, indicating the type of equity.
+    data_tests:
+      - not_null
+  - name: open
+    description: The opening price of the stock for the day.
+  - name: high
+    description: The highest price of the stock during the trading day.
+  - name: low
+    description: The lowest price of the stock during the trading day.
+  - name: close
+    description: The closing price of the stock for the day.
+  - name: last
+    description: The last traded price of the stock for the day.
+  - name: prevclose
+    description: The closing price of the stock on the previous trading day.
+  - name: total_quantity_traded
+    description: The total quantity of the stock traded during the day.
+  - name: total_trade_val
+    description: The total value of trades for the stock during the day.
+  - name: date
+    description: The date of the trading day.
+    data_tests:
+      - not_null
+  - name: totaltrades
+    description: The total number of trades executed for the stock during the day.
+  - name: isin
+    description: The International Securities Identification Number (ISIN) for the
+      stock.
+    data_tests:
+      - not_null

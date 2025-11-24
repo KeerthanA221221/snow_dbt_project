@@ -1,0 +1,9 @@
+sources:
+  - name: my_snowflake
+    database: EDW_DEV
+    schema: RAW
+    tables: 
+      - name: nse_stock
+        identifier: nse_stock_daily_data
+      - name: emp_json
+    
