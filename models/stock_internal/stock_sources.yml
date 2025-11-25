@@ -6,4 +6,5 @@ sources:
       - name: nse_stock
         identifier: nse_stock_daily_data
       - name: emp_json
+      - name: CLONE_ORDERS
     
