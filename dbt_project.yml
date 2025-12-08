@@ -42,3 +42,7 @@ models:
       +materialized: table
     stock_internal:
       +materialized: table
+    dim:
+      +materialized: table
+vars:
+  created_by: "stock_user"
