@@ -1,1 +1,1 @@
-select * from {{source("my_snowflake", 'nse_stock')}}
+select * from {{ source("my_snowflake", 'nse_stock') }}

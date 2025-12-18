@@ -1,6 +1,0 @@
-sources:
-  - name: orders
-    database: EDW_DEV
-    schema: RAW
-    tables:
-      - name: sample_flatten_orders

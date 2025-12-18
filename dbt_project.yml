@@ -44,6 +44,8 @@ models:
       +materialized: table
     dim:
       +materialized: table
+    sources:
+      +materialized: table
 vars:
   created_by: "stock_user"
 
