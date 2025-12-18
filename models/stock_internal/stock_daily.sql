@@ -8,3 +8,4 @@ select
         SERIES,OPEN,HIGH,LOW,CLOSE,LAST,PREVCLOSE,TOTTRDQTY as total_quantity_traded,TOTTRDVAL as total_trade_val,TIMESTAMP as Date,TOTALTRADES,ISIN
 
 from raw_stock_data
+

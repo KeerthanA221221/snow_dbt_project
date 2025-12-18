@@ -42,3 +42,12 @@ models:
       +materialized: table
     stock_internal:
       +materialized: table
+    dim:
+      +materialized: table
+    sources:
+      +materialized: table
+vars:
+  created_by: "stock_user"
+
+seeds:
+  +quote_columns: true
